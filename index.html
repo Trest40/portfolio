@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Кирьян Артур, Junior Python Разработчик</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем крутые шрифты из Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Подключаем Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+           
+            <h1 class="animate__fade-in delay-1">Кирьян Артур</h1>
+            <p class="subtitle animate__fade-in delay-2">Junior Python Разработчик | Программирую 4 года</p>
+             <!-- Навигация осталась закомментированной -->
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section bg-light animate__fade-in">
+            <div class="container">
+                 <div class="about-content">
+                      <div class="about-text animate__slide-up">
+                         <h2>Обо мне</h2>
+                         <p>Привет! Меня зовут Кирьян Артур. Я программирую 4 года, и с тех пор я непрерывно развиваюсь, осваивая продвинутые технологии и создавая эффективные программные решения.</p>
+                         <p>Я глубоко увлечен Python и областью Data Science, где вижу огромный потенциал для решения реальных и сложных задач. Моя цель — не просто писать код, а разрабатывать надежную и продуманную логику, способную приносить реальную пользу. Я постоянно учусь новому и готов к самым амбициозным проектам.</p>
+                         <!-- Опционально: Кнопка скачать резюме, если есть -->
+                         <!-- <a href="your_resume.pdf" class="btn" download>Скачать резюме</a> -->
+                      </div>
+                      <div class="about-image animate__fade-in delay-3">
+                           <!-- Ваша фотография - убедитесь, что файл 1.png находится рядом с index.html -->
+                          <img src="1.png" alt="Ваша фотография">
+                      </div>
+                 </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section animate__fade-in">
+            <div class="container">
+                <h2>Мои Проекты</h2>
+                <p class="animate__slide-up">Мои проекты — это результат глубокого погружения в тему и применения продвинутых навыков для решения реальных и значимых задач.</p>
+
+                <div class="project-item animate__slide-up">
+                    <div class="project-details">
+                         <h3>Прогнозирование Риска Паводков для г. Петропавловск: Проект с Идеальной Логикой</h3>
+                         <p>Это мой ключевой проект, в котором я разработал систему прогнозирования риска весенних паводков на реке Ишим, основанную на продвинутых методах Data Science и машинного обучения (XGBoost).</p>
+                         <p>В основе проекта — безупречная логика обработки и анализа огромного массива гидрометеорологических и спутниковых данных за 10 лет (2014-2024 гг.). Разработанный мною Python-прототип программы, получивший название <code class="code-highlight">for</code>, способен с исключительной точностью генерировать ежемесячный прогноз риска.</p>
+                         <p class="achievement-text"><strong>Главное достижение: Логика модели доказала свою эффективность, успешно и верно спрогнозировав реальное наводнение весны 2024 года на верификационных данных!</strong></p>
+                         <p>На текущем этапе проект сфокусирован на демонстрации этой точной логики на примере Петропавловска, но архитектура программы позволяет легко масштабировать решение на другие города. В дальнейших планах — создание передового мобильного приложения для мгновенных уведомлений и интеграция с данными дронов для еще большей детализации и актуальности прогнозов.</p>
+                         <!-- ССЫЛКА НА САЙТ ПРОЕКТА -->
+                         <a href="../flood_prediction_site/index.html" class="btn project-btn">Посмотреть подробнее о проекте</a>
+                    </div>
+                    <!-- Картинка проекта - убедитесь, что файл 2.png находится рядом с index.html -->
+                     <div class="project-image animate__fade-in delay-3">
+                          <img src="2.png" alt="Изображение проекта Прогнозирование Паводков">
+                      </div>
+                </div>
+
+                <!-- Можно добавить другие проекты, если есть -->
+
+            </div>
+        </section>
+
+         <section id="skills" class="section bg-light animate__fade-in">
+             <div class="container">
+                 <h2>Мои Продвинутые Навыки</h2>
+
+                 <div class="skills-learning-grid">
+                     <div class="skills-block animate__slide-up">
+                         <h3><i class="fas fa-code icon"></i> В чем я уверен</h3>
+                         <ul class="skill-list">
+                             <li><i class="fab fa-python skill-icon"></i> **Python:** Глубокое понимание языка и продвинутых концепций, разработка комплексных скриптов и программ.</li>
+                             <li><i class="fas fa-database skill-icon"></i> **Обработка и Анализ Данных:** Экспертное использование библиотек <code class="code-highlight">Pandas</code> и <code class="code-highlight">NumPy</code> для эффективной работы с большими наборами данных.</li>
+                             <li><i class="fas fa-chart-area skill-icon"></i> **Визуализация Данных:** Создание сложных, информативных и кастомизированных визуализаций с <code class="code-highlight">Matplotlib</code> и <code class="code-highlight">Seaborn</code>.</li>
+                             <li><i class="fas fa-brain skill-icon"></i> **Машинное Обучение:** Разработка, обучение и оптимизация продвинутых моделей, включая использование <code class="code-highlight">Scikit-learn</code> и <code class="code-highlight">XGBoost</code>, оценка качества по полному набору метрик.</li>
+                              <li><i class="fas fa-map-marked-alt skill-icon"></i> **Геопространственный Анализ:** Профессиональная обработка и анализ пространственных данных с использованием <code class="code-highlight">GeoPandas</code> и <code class="code-highlight">Rasterio</code>, работа с DEM, KML и растровыми данными.</li>
+                               <li><i class="fas fa-cloud-download-alt skill-icon"></i> **Работа с Источниками Данных:** Эффективный сбор и предобработка данных из различных источников, включая метеорологический реанализ <code class="code-highlight">ERA5</code>.</li>
+                             <li><i class="fas fa-laptop-code skill-icon"></i> **Веб-разработка:** Уверенное использование HTML/CSS и JavaScript для создания интерактивных элементов и интерфейсов.</li>
+                              <li><i class="fas fa-cogs skill-icon"></i> **Программная Инженерия:** Построение надежных, модульных и эффективных программных комплексов и скриптов обработки данных (как программа <code class="code-highlight">for</code>).</li>
+                         </ul>
+                     </div>
+
+                     <div class="learning-block animate__slide-up">
+                         <h3><i class="fas fa-book-open icon"></i> Что я изучаю (уровень выше текущего)</h3>
+                          <p>Я постоянно стремлюсь к росту и сейчас активно углубляюсь в области, которые представляют новый уровень сложности и открывают еще большие возможности:</p>
+                          <ul class="learning-list">
+                             <li><i class="fas fa-arrow-right learning-icon"></i> **Архитектура Высоконагруженных Систем:** Проектирование решений, способных обрабатывать большие объемы данных в реальном времени.</li>
+                             <li><i class="fas fa-arrow-right learning-icon"></i> **DevOps и CI/CD:** Автоматизация процессов разработки, тестирования и развертывания.</li>
+                             <li><i class="fas fa-arrow-right learning-icon"></i> **Передовые Методы Моделирования:** Изучение специализированных алгоритмов и фреймворков для Deep Learning (TensorFlow, PyTorch) и их применение в комплексных задачах.</li>
+                              <li><i class="fas fa-arrow-right learning-icon"></i> **Оптимизация и Параллельные Вычисления:** Методы ускорения обработки данных и работы моделей.</li>
+                             <!-- Добавьте другие сложные темы, которые изучаете -->
+                          </ul>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <section id="current" class="section animate__fade-in">
+             <div class="container">
+                 <h2>Чем я занимаюсь сейчас</h2>
+                 <div class="content-block animate__slide-up">
+                     <p>В данный момент я работаю над дальнейшим совершенствованием и подготовкой к масштабированию проекта по прогнозированию паводков, который уже доказал свою высокую точность. Я исследую возможности применения более сложных моделей и интеграции новых типов данных для повышения детализации прогнозов. Параллельно я активно изучаю аспекты развертывания и эксплуатации высоконагруженных систем, чтобы иметь возможность создавать решения, готовые к промышленному использованию.</p>
+                      <!-- Ссылка на ваш GitHub -->
+                     <p style="text-align: center; margin-top: 30px;">Следить за ходом моей работы и кодом можно на GitHub: <a href="#" target="_blank">https://github.com/Trest40 <i class="fab fa-github"></i></a></p>
+                 </div>
+             </div>
+         </section>
+
+
+        <section id="contact" class="section bg-light animate__fade-in">
+            <div class="container">
+                <h2>Свяжитесь со мной</h2>
+                <p class="animate__slide-up">Я всегда открыт для обсуждения амбициозных проектов, интересных идей и возможностей сотрудничества. Буду рад вашему сообщению:</p>
+                <div class="contact-info animate__slide-up">
+                    <p><i class="fas fa-envelope icon"></i> Email: <a href="mailto:artur270810@gmail.com">artur270810@gmail.com</a></p>
+                     <!-- LinkedIn ссылку убрали по запросу -->
+                    <p><i class="fab fa-github icon"></i> GitHub: <a href="#" target="_blank">https://github.com/Trest40</a></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Кирьян Артур. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
